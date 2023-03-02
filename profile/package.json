@@ -1,0 +1,24 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "Profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --opts src/tests/mocha.opts",
+    "start": "node ./src/index.js"
+  },
+  "author": "Egor Repnikov <egorepnikov@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dragonrend": "0.18.0",
+    "eureka-js-client": "^4.5.0",
+    "pg": "^7.11.0",
+    "request-promise": "^4.2.4",
+    "sequelize": "^5.9.4"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "should": "^13.2.3",
+    "sqlite3": "^4.0.9"
+  }
+}

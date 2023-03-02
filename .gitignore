@@ -1,0 +1,23 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+node_modules/
+dist/
+package-lock.json
+yarn.lock
+.settings
+.classpath
+.project
+
+.env
+
+dependency-reduced-pom.xml
